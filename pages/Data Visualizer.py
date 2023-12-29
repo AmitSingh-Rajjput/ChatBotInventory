@@ -24,7 +24,7 @@ hf_key = os.environ.get("HUGGINGFACEAPIKEY")
 # openai_key = ""
 # hf_key = ""
 
-chosen_dataset = pd.read_csv("C:/Users/roopa/Downloads/streamlit2/purchase_order.csv")
+chosen_dataset = pd.read_csv("purchase_order.csv")
 
 from langchain import HuggingFaceHub, LLMChain,PromptTemplate
 
