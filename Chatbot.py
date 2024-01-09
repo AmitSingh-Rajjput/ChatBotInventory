@@ -12,14 +12,6 @@ from langchain.memory import ConversationBufferWindowMemory
 import dotenv
 from dotenv import load_dotenv
 load_dotenv()
-# from nbconvert import HTMLExporter
-# import nbformat
-
-# OPENAI_API_KEY = os.environ.get("OPENAIAPIKEY")         # API Key
-# SERPAPI_API_KEY = os.environ.get("SERPAPI") 
-
-# os.environ['OPENAI_API_KEY'] = "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"
-# os.environ['SERPAPI_API_KEY'] = "74963d51b78c062e4bcadf618e77acbe264485d2763b9478161ca0823169d818"
 
 st.set_page_config(
     page_title="Inventory Assistant",
